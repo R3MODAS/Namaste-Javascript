@@ -8,3 +8,4 @@ function b(){ // global space
 console.log(window.a) // accessing a from window object 
 console.log(a) // global space
 console.log(x) // not defined
+console.log(this.a) // this refers to window
